@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dice rolling</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+	<link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+	<div class="wrapper clearfix">
+		<div class="player-0-panel">
+			<div class="palyer_name" id="name-0">Player-1</div>
+			<div class="player_score" id="score-0">99</div>
+			<div class="player-current-box">
+				<div class="current-player-label">current</div>
+				<div class="current-player-score" id="current-0">90</div>
+			</div>
+		</div>
+		<div class="player-1-panel">
+			<div class="palyer_name" id="name-1">Player-2</div>
+			<div class="player_score" id="score-1">99</div>
+			<div class="player-current-box">
+				<div class="current-player-label">current</div>
+				<div class="current-player-score" id="current-1">90</div>
+			</div>
+		</div>
+		<button class="btn-new"><i class="ion-ios-plus-outline"></i>New Game</button>
+		<button class="btn-roll"><i class="ion-ios-loop"></i>Dice Roll</button>
+		<button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+		<input type="text" placeholder="FINAL SCORE" class="finalScore">
+		<img class="dice" src="asset/dice-1.png" alt="">
+	</div>
+	<script type="text/javascript" src="asset/dice.js"></script>
+</body>
+</html>
